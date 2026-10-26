@@ -1,0 +1,5 @@
+Model,CV Accuracy,CV Macro-F1
+LGBM raw,0.4985,0.466
+LGBM + FE,0.5731,0.6184
+XGB + FE,0.575,0.6166
+Ensemble,0.5766,0.6208

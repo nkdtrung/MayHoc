@@ -1,0 +1,14 @@
+notebook,dataset,rows,cols,numeric_cols,categorical_cols,missing_cells,duplicate_rows,outlier_cells_iqr
+03_wine_descriptive,winequality-red.csv,1359,12,12,0,0,0,502
+01_covid_descriptive,covid-data.csv,429435,6,2,4,63432,0,107947
+02_marketing_cleaning,marketing_campaign.csv,2240,11,8,3,24,0,19
+04_diabetes_descriptive,Pima Indians Diabetes,768,9,9,0,0,0,497
+07_diabetes_viz,Pima Indians Diabetes,768,9,9,0,0,0,497
+10_houseprices_univariate,HousingPricesData.csv,924,3,3,0,4,55,220
+06_wine_viz,winequality-red.csv,1359,12,12,0,0,0,502
+09_penguins_uni_bivariate,penguins_size.csv,344,4,2,2,15,5,0
+08_online_retail_eda,OnlineRetail.csv (sau làm sạch),524878,4,4,0,132186,370234,107562
+11_marketing_auto_eda,marketing_campaign.csv,2240,29,26,3,24,0,2269
+12_marketing_sweetviz,marketing_campaign.csv,2240,29,26,3,24,0,2269
+05_houseprices_viz,HousingPricesData.csv,920,4,4,0,0,55,229
+13_marketing_autoviz,marketing_campaign.csv,2240,29,26,3,24,0,2269

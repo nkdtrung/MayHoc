@@ -1,0 +1,9 @@
+exp_id,timestamp,task,model,params,split,features,accuracy,precision_macro,recall_macro,f1_macro,f1_weighted,silhouette,ari,nmi,train_time_sec,notes
+EXP_01,2026-10-17 16:01:33,T4_Classification,DummyClassifier,strategy=most_frequent,GroupSplit,TFIDF_Merchant_Numeric,0.1517,0.0152,0.1,0.0263,0.04,,,,0.0,Baseline du doan lop pho bien nhat
+EXP_02,2026-10-17 16:01:36,T4_Classification,LogisticRegression,"C=1.0, max_iter=1000",GroupSplit,TFIDF_Merchant_Numeric,0.9431,0.9472,0.9406,0.9431,0.9432,,,,2.45,Baseline mo hinh tuyen tinh
+EXP_03,2026-10-17 16:01:36,T4_Classification,MultinomialNB,alpha=1.0,GroupSplit,TFIDF_Merchant_Numeric,0.9089,0.9256,0.8982,0.9055,0.9072,,,,0.01,Mo hinh Naive Bayes tren dac trung khong am
+EXP_04,2026-10-17 16:01:38,T4_Classification,LinearSVC,"C=1.0, max_iter=2000",GroupSplit,TFIDF_Merchant_Numeric,0.9475,0.9509,0.9459,0.9479,0.9477,,,,1.36,Mo hinh Support Vector Machine tuyen tinh
+EXP_05,2026-10-17 16:01:39,T4_Classification,RandomForestClassifier,"n_estimators=100, max_depth=30",GroupSplit,TFIDF_Merchant_Numeric,0.8919,0.9311,0.8867,0.8992,0.8995,,,,1.85,Mo hinh cay rung ngau nhien ensemble
+EXP_06,2026-10-17 16:01:51,T4_Classification,LinearSVC_Tuned_Test,"C=0.5, max_iter=2000",GroupSplit,TFIDF_Merchant_Numeric,0.9475,0.952,0.9464,0.9488,0.9475,,,,0.0,Danh gia chung ket mot lan duy nhat tren tap Test
+EXP_07,2026-10-17 16:01:55,T4_Classification,LinearSVC_RandomSplit,"C=0.5, max_iter=2000",RandomSplit,TFIDF,0.947,0.9499,0.9465,0.9477,0.9468,,,,0.88,Thi nghiem doi chung ranh gioi ro ri du lieu
+EXP_08,2026-10-17 16:02:34,T5_Clustering,KMeans,"n_clusters=10, n_components=50",AllCleanedData,TFIDF_TruncatedSVD,,,,,,0.2133,0.4725,0.6617,1.54,Gom cum khong giam sat doi chieu voi 10 Category Label

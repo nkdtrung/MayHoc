@@ -1,0 +1,22 @@
+# Local files excluded from this publication
+/Challenge1/NopBai/challenge1_houseprices_Ngô Kiều Đình Trung_3124411327.zip
+/GiuaKy/ML-PCC_Group-main.zip
+/GiuaKy/NopBai/Nhom24_Product Classification and Clustering_GiuaKy.zip
+/Lab03_EDA_Ngô Kiều Đình Trung_3124411327.zip
+/Lab05/Lab05_thuatToanPhanLop.zip
+/Lab05/NopBai/Lab05_ModelTraining_Ngô Kiều Đình Trung_3124411327.zip
+/Lab05/Phantichkhamphadulieu.zip
+/Trangbia.docx
+/lab04_featureselection_Ngô Kiều Đình Trung_3124411327.zip
+
+# Python/Jupyter local runtime files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local credentials; example configuration remains versioned
+.env
+.env.*
+!.env.example
